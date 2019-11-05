@@ -10,7 +10,7 @@
   Task.create(
     :title Faker::Creature::Cat.name;
     :details Faker::Device.model_name;
-    :completed Faker::Boolean.boolean
+    :completed Faker::Boolean.boolean;
     )
 end
 end
